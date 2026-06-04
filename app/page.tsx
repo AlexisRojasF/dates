@@ -190,7 +190,7 @@ export default function HomePage() {
     <main className="app" style={{ width: '100%', maxWidth: 560, margin: '0 auto', minHeight: '100vh', padding: 20, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div>
         <div className="header" style={{ textAlign: 'center', marginBottom: 28, animation: 'fadeDown 0.6s ease' }}>
-          <img src="/memes/gatito1.png" alt="gatito1" style={{ width: 150, height: 'auto', borderRadius: 16, display: 'block', margin: '0 auto 16px' }} />
+          <img src="/memes/gatito1.png" alt="gatito1" style={{ width: 150, height: 'auto', borderRadius: 16, display: 'block', margin: '0 auto 16px', filter: 'drop-shadow(0 0 30px rgba(192, 132, 252, 0.6))' }} />
           <h1 style={{ fontSize: 28, fontWeight: 900, background: 'linear-gradient(135deg, var(--primary), var(--accent))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', lineHeight: 1.2 }}>
             ¿Saldrías conmigo?
           </h1>
