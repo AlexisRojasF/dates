@@ -221,6 +221,9 @@ export default function HomePage() {
           <p style={{ fontFamily: 'Fira Code, monospace', fontSize: 10, color: 'var(--text-muted)', marginTop: 4 }}>
              // ejecutando: peticion_romantica_v2.0.cat
           </p>
+          <p style={{ fontFamily: 'Fira Code, monospace', fontSize: 10, color: 'var(--text-muted)', marginTop: 4 }}>
+             // Peticion eclusiva para Stefania Loaiza
+          </p>
         </div>
 
         <div className={`step ${currentStep === 0 ? 'active' : ''}`} style={{ display: currentStep === 0 ? 'block' : 'none', animation: 'slideUp 0.4s cubic-bezier(.34,1.56,.64,1)' }} id="s0">
@@ -635,7 +638,7 @@ export default function HomePage() {
             <p style={{ fontFamily: 'Fira Code, monospace', fontSize: 10, color: '#065f46', lineHeight: 1.5 }}>
               // status: ÉXITO<br />
               // romance.exe iniciado<br />
-              // nos vemos pronto 💜
+              // nos vemos pronto Stefania💜
             </p>
           </div>
 
