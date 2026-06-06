@@ -638,7 +638,7 @@ export default function HomePage() {
             <p style={{ fontFamily: 'Fira Code, monospace', fontSize: 10, color: '#065f46', lineHeight: 1.5 }}>
               // status: ÉXITO<br />
               // romance.exe iniciado<br />
-              💜 Nos vemos pronto Stefania 💜
+              // nos vemos pronto Stefania 💜
             </p>
           </div>
 
