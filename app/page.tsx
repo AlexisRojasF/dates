@@ -681,7 +681,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p style={{ fontSize: 9, color: '#6b7280', textAlign: 'center', lineHeight: 1.6 }}>
-                Nos vemos pronto💜<br />
+                💜 Nos vemos pronto Stefania 💜<br />
                 <span style={{ fontSize: 8 }}>// generado por peticion_romantica_v2.0.cat</span>
               </p>
             </div>
