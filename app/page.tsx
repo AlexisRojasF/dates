@@ -7,13 +7,13 @@ import html2canvas from 'html2canvas';
 const questions = [
   {
     id: 3,
-    tag: '// módulo: entretenimiento.exe',
-    text: '🎬 Noche de películas — ¿qué genero seleccionas?',
+    tag: '// módulo: vibe_check.exe',
+    text: '💕 Noche de salida — ¿en qué mood andas?',
     options: [
-      '🚀 Sci-Fi — universos paralelos',
-      '🕵️ Thriller psicológico — glitches en la matrix',
-      '🧪 Documental de ciencia — IRL tutorials 😂',
-      '🎭 Comedia romántica — el bug más predecible',
+      '🔥 Modo aventura — sorpréndeme, sin guion',
+      '🍷 Tranqui y cómplice — charla larga y risas',
+      '🕺 Energía full — bailar hasta crashear el sistema',
+      '🛋️ Plan chill — abrazos y cero compromisos',
     ],
   },
   {
@@ -21,10 +21,10 @@ const questions = [
     tag: '// módulo: actividades_sociales.config',
     text: '📍 Primera cita — ¿qué instancia ejecutamos?',
     options: [
-      '☕ Café + código — pair programming romántico',
-      '🔭 Planetario — explorar el universo juntos',
+      ' Café + helado —  la combinación perfecta',
+      '🍷 Parque + vino — brindis bajo las estrellas',
       '🎮 Arcade vintage — retro & chill',
-      '📚 Librería + helado — the OG nerd date',
+      '🍺 Unas frías y conversación — sin apuros',
     ],
   },
   {
@@ -32,10 +32,10 @@ const questions = [
     tag: '// módulo: nutrición_social.dat',
     text: '🍽 Escoge el stack gastronómico de la noche',
     options: [
-      '🍕 Pizza — el stack más sólido de la gastronomía 🍕',
+      '🌭 Salchipapa — papas, salsa y felicidad 🍟',
       '🍣 Sushi — raw data sin procesar 🍣',
       '🍔 Burger — arquitectura en capas de sabor 🍔',
-      '🌮 Tacos — open source & altamente customizable 🌮',
+      '🍖 Asado — carne al punto y buena vibra 🍖'
     ],
   },
   {
@@ -43,10 +43,11 @@ const questions = [
     tag: '// módulo: nivel_compromiso.final',
     text: '✨ Después de la cita... ¿qué hacemos? (hypothetically 👀)',
     options: [
-      '🌙 Paseo nocturno con debate filosófico',
-      '🎵 Playlist compartida en bucle infinito',
-      '🎲 Board game maratón — ganador elige la próxima cita',
-      '🌠 Ver las estrellas — con o sin telescopio',
+      '🚶 Recorrer la ciudad sin rumbo fijo',
+      '🍦 Buscar el mejor postre abierto a esta hora',
+      '🎶 Bar con música en vivo — una más y ya (mentira)',
+      '🚕 Te acompaño hasta tu casa',
+      '😏 Que la cita no termine tan pronto... 🔥'
     ],
   },
 ];
@@ -217,9 +218,9 @@ export default function HomePage() {
           <h1 style={{ fontSize: 22, fontWeight: 900, background: 'linear-gradient(135deg, var(--primary), var(--accent))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', lineHeight: 1.2 }}>
             ¿Saldrías conmigo?
           </h1>
-           <p style={{ fontFamily: 'Fira Code, monospace', fontSize: 10, color: 'var(--text-muted)', marginTop: 4 }}>
+          <p style={{ fontFamily: 'Fira Code, monospace', fontSize: 10, color: 'var(--text-muted)', marginTop: 4 }}>
              // ejecutando: peticion_romantica_v2.0.cat
-           </p>
+          </p>
         </div>
 
         <div className={`step ${currentStep === 0 ? 'active' : ''}`} style={{ display: currentStep === 0 ? 'block' : 'none', animation: 'slideUp 0.4s cubic-bezier(.34,1.56,.64,1)' }} id="s0">
@@ -677,7 +678,7 @@ export default function HomePage() {
                 </div>
               </div>
               <p style={{ fontSize: 9, color: '#6b7280', textAlign: 'center', lineHeight: 1.6 }}>
-                Nos vemos pronto, mi nerd favorit@ 💜<br />
+                Nos vemos pronto💜<br />
                 <span style={{ fontSize: 8 }}>// generado por peticion_romantica_v2.0.cat</span>
               </p>
             </div>
