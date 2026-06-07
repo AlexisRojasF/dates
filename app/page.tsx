@@ -660,7 +660,7 @@ export default function HomePage() {
               <div style={{ border: '2px solid #ede9fe', borderRadius: 12, overflow: 'hidden', marginBottom: 16 }}>
                 <div style={{ background: '#f3e8ff', padding: '10px 14px', fontWeight: 800, fontSize: 11, color: '#7c3aed' }}>📋 Resumen de tu cita</div>
                 <div style={{ padding: '10px 14px', borderBottom: '1px solid #e5e7eb' }}>
-                  <span style={{ fontSize: 9, color: '#6b7280' }}>🎬 película:// </span>
+                  <span style={{ fontSize: 9, color: '#6b7280' }}>🎭  Animo:// </span>
                   <span style={{ fontSize: 10, fontWeight: 700 }}>{summaryValues[0]}</span>
                 </div>
                 <div style={{ padding: '10px 14px', borderBottom: '1px solid #e5e7eb', background: '#f9fafb' }}>
